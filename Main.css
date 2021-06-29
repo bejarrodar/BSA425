@@ -1,0 +1,19 @@
+.fourColumn {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+
+.fourRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .fourColumn {
+    width: 100%;
+  }
+}

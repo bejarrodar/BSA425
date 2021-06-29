@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bear Bank</title>
+	<meta name="author" content="Jarrod Caplan" />
+	<meta name="description" content="Online Banking System" />
+	<link rel="stylesheet" id="stylesheet" type="text/css" href="Main.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- <script language="javascript" type="text/javascript" src="script.js"></script> -->
+	<style>
+* {
+    box-sizing: border-box;
+}
+
+.material-icons {
+    font-family: Material Icons;
+}
+
+.material-icons-outlined {
+    font-family: Material Icons;
+    font-size: 48px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #010048;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #090088;
+  color: white;
+}
+body { 
+    margin: 0;
+}
+
+.fourColumns {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+
+.fourRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact {
+	border-style: solid;
+	border-width: 2px;
+}
+
+.choice {
+    width: 100%;
+    padding: 0px;
+    color: #63f5f9;
+    background-color: #010048;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.choiceTxt {
+	float: left;
+	width: 25%;
+	background-color: #010057;
+    padding: 50px;
+    margin: 20px;
+}
+
+.choiceList {
+	padding: 20px;
+}
+
+.choiceLink {
+	text-align: justify;
+	text-decoration: none;
+	max-width: 100px;
+	color: white;
+	padding: 10px;
+	width: 20%;
+	float: right;
+}
+
+@media screen and (max-width:600px) {
+    .fourColumns {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+	<div id="bodyTag">
+	</div>
+    <div class="nav">
+        <a href="#">Bear Banking</a>
+        <a href="#">Account</a>
+        <a href="#">Loans</a>
+        <a href="#">Cards</a>
+        <a href="#">Investments</a>
+        <a href="#">Tax Services</a>
+        <a href="#">Insurance</a>
+        <a style="float:right;" href="#"><span class="material-icons">login</span></a>
+    </div>
+    <div class="choice">
+        <h2 class= choiceTxt>
+            Possibilities Unlocked With Bear Banking
+        </h2>
+        <div class="choiceList">
+            <a class="choiceLink" href="#">
+                <span class="material-icons-outlined">attach_money
+                </span>Checking</a>
+            <a class="choiceLink" href="#">
+                <span class="material-icons-outlined">savings
+                </span>Savings</a>
+            <a class="choiceLink" href="#">
+                <span class="material-icons-outlined">payments
+                </span>Loans</a>
+            <a class="choiceLink" href="#">
+                <span class="material-icons-outlined">pending_actions
+                </span>Investing</a>
+            <a class="choiceLink" href="#">
+                <span class="material-icons-outlined">request_quote
+                </span>Tax Services</a>
+            <a class="choiceLink" href="#">
+                <span class="material-icons-outlined">credit_card
+                </span>Credit Cards</a>
+            <a class="choiceLink" href="#">
+                <span class="material-icons-outlined">privacy_tip
+                </span>Insurance</a>
+        </div>
+    </div>
+
+	<div class="contact">
+        <h2>You can also call the number on the back of your card, or reach us at one of the numbers below.</h2>
+    </div>
+	<div class="fourRow">
+        <div class="fourColumns">
+            <h2>Credit Cards</h2>
+
+            <p><strong>Card Servicing:</strong><br> 1-800-222-2222</p>
+
+            <p><strong>Apply for Card:</strong><br> 1-800-222-2222</p>
+
+            <p><strong>Activate New Card:</strong><br>
+                <a href="http://www.bearbanking.com/activate">bearbanking.com/activate</a></p>
+
+            <p><strong>Lost or Stolen:</strong><br> U.S. 1-800-222-2222</p>
+
+        </div>
+        <div class="fourColumns">
+            <h2>Banking</h2>
+
+            <p><strong>Bear Bank Servicing:</strong><br> 1-800-222-2222</p>
+
+            <p><strong>Bear Bank Card Holder Servicing:</strong><br> 1-800-222-2222
+                <br> 8 a.m.–8 p.m. ET<br> 7 days a week</p>
+
+            <p><strong>Open an Online-only Checking, Savings, or CD Account:</strong><br> 1-800-222-2222 or visit<br>
+                <a href="http://www.bearbanking.com">www.bearbanking.com</a></p>
+
+            <p><strong>Small Business:</strong><br> 1-800-222-2222</p>
+                    
+        </div>
+        <div class="fourColumns">
+        	<h2>Loans</h2>
+
+            <p><strong>Auto Loans:</strong><br> 1-800-222-2222</p>
+
+            <p><strong>Home Loans:</strong><br> 1-800-222-2222</p>
+        </div>
+        <div class="fourColumns">
+            <h2>Investing</h2>
+
+            <p>1-800-222-2222
+            <br> Monday–Friday
+            <br> 8 a.m.–11 p.m. ET</p>
+
+        </div>
+    </div>
+    <div>
+        <h2>Disclosures:</h2>
+        <p>Unless otherwise specified, all advertised offers and terms and conditions of accounts and services are subject to change at any time without notice. After an account is opened or service begins, it is subject to its features, conditions and terms, which are subject to change at any time in accordance with applicable laws and agreements. Please contact a Bear Banking representative for full details.</p>
+    </div>
+</body>
+</html>
